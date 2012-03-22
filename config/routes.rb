@@ -5,9 +5,9 @@ Project1::Application.routes.draw do
 
 
 
-  #get "bookmarks/index"
+  get "bookmarks/index"
 
-  #get "bookmarks/show"
+  get "bookmarks/show"
 
   get "bookmarks/new"
 
