@@ -1,14 +1,7 @@
-<h1>Bookmarks#index</h1>
-<p>Find me in app/views/bookmarks/index.html.erb</p>
-
-
 
 <h1>All Bookmarks</h1>
+<%= link_to "Add a Bookmark!", bookmarks_new_path %>
+<h3>This is the index view!</h3>
 
-<ul class="bookmarks">
-  <% @bookmarks.each do |bookmark| %>
-    <p>
-      <%= link_to bookmark.name, bookmark %>
-    </p>
-  <% end %>
-</ul>
+
+<%= render 'bookmarks/view_all_bookmarks' %>

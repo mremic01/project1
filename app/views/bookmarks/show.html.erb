@@ -1,9 +1,7 @@
-<h1>Bookmarks#show</h1>
-<p>Find me in app/views/bookmarks/show.html.erb</p>
+<h1>Bookmark</h1>
+<%= link_to "View all bookmarks", bookmarks_path %>
 
+<h3>This is the show view!</h3>
 
-
-
-<p><b>Bookmark: </b><%= @bookmark.name %></p>
-<p><b>Url: </b><%= @bookmark.url %></p>
+<%= render 'bookmarks/show_a_bookmark' %>
 
