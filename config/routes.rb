@@ -1,4 +1,12 @@
 Project1::Application.routes.draw do
+  resources :bookmarks
+
+  #get "bookmarks/index"
+
+  #get "bookmarks/show"
+
+  #get "bookmarks/new"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

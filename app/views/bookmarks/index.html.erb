@@ -1,0 +1,14 @@
+<h1>Bookmarks#index</h1>
+<p>Find me in app/views/bookmarks/index.html.erb</p>
+
+
+
+<h1>All Bookmarks</h1>
+
+<ul class="bookmarks">
+  <% @bookmarks.each do |bookmark| %>
+    <p>
+      <%= link_to bookmark.name, bookmark %>
+    </p>
+  <% end %>
+</ul>
